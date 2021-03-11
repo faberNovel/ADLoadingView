@@ -1,0 +1,59 @@
+PODS:
+  - ADDynamicLogLevel (2.0.2):
+    - CocoaLumberjack (~> 3.0)
+  - ADLoadingView (2.5.0)
+  - Alamofire (4.3.0)
+  - CocoaLumberjack (3.0.0):
+    - CocoaLumberjack/Default (= 3.0.0)
+    - CocoaLumberjack/Extensions (= 3.0.0)
+  - CocoaLumberjack/Core (3.0.0)
+  - CocoaLumberjack/Default (3.0.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (3.0.0):
+    - CocoaLumberjack/Default
+  - CocoaLumberjack/Swift (3.0.0):
+    - CocoaLumberjack/Extensions
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Nimble (6.0.1)
+  - Nimble-Snapshots (4.4.0):
+    - Nimble-Snapshots/Core (= 4.4.0)
+  - Nimble-Snapshots/Core (4.4.0):
+    - FBSnapshotTestCase (~> 2.0)
+    - Nimble
+    - Quick
+  - OCMock (3.4)
+  - Quick (1.1.0)
+
+DEPENDENCIES:
+  - ADDynamicLogLevel (~> 2.0)
+  - ADLoadingView (from `./`)
+  - Alamofire (~> 4.0)
+  - CocoaLumberjack/Swift (~> 3.0)
+  - FBSnapshotTestCase (~> 2.1)
+  - Nimble (~> 6.0)
+  - Nimble-Snapshots (~> 4.4)
+  - OCMock (~> 3.4)
+  - Quick (~> 1.1)
+
+EXTERNAL SOURCES:
+  ADLoadingView:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  ADDynamicLogLevel: 01c9566696995e17cd5225c7d28ec00709ffd8b0
+  ADLoadingView: 46411ce8b09233276f8895cd6805c5edfbe9aa32
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Nimble: 1527fd1bd2b4cf0636251a36bc8ab37e81da8347
+  Nimble-Snapshots: e743439f26c2fa99d8f7e0d7c01c99bcb40aa6f2
+  OCMock: 35ae71d6a8fcc1b59434d561d1520b9dd4f15765
+  Quick: dafc587e21eed9f4cab3249b9f9015b0b7a7f71d
+
+PODFILE CHECKSUM: 1c683c4a38f251cd15b98680c9a446c8c41d64c8
+
+COCOAPODS: 1.1.1
