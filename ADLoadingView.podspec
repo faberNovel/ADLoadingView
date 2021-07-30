@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '6.0'
   spec.tvos.deployment_target = '9.0'
   spec.license      = { :type => 'Commercial', :text => 'Created and licensed by Applidium. Copyright 2016 Applidium. All rights reserved.' }
-  spec.source       = { :git => 'ssh://git@gerrit.applidium.net:29418/ADLoadingView.git', :tag => "v#{spec.version}" }
+  spec.source       = { :git => 'git@github.com:faberNovel/ADLoadingView.git', :tag => "v#{spec.version}" }
   spec.source_files = 'Modules/ADLoadingView/Classes/*.{h,m}'
   spec.framework    = 'Foundation', 'UIKit'
   spec.requires_arc = true
